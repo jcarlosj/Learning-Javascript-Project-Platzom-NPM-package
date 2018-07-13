@@ -1,5 +1,5 @@
 {
-  "name": "platzom",
+  "name": "@jcarlosj/platzom",
   "version": "0.1.0",
   "description": "Módulo que traduce palabras a un idioma inventado (Platzi)",
   "main": "index.js",
