@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Módulo que traduce palabras a un idioma inventado (Platzi)",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarlosj/learning-javascript-platzom-npm-package.git"
+  },
+  "keywords": [
+    "learning",
+    "javascript",
+    "platzi",
+    "platzom"
+  ],
+  "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co> (https://twitter.com/Jce_)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcarlosj/learning-javascript-platzom-npm-package/issues"
+  },
+  "homepage": "https://github.com/jcarlosj/learning-javascript-platzom-npm-package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
